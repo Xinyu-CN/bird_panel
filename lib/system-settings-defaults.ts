@@ -1,0 +1,27 @@
+import type { SystemSettings } from '@/types'
+
+export const DEFAULT_SYSTEM_SETTINGS: SystemSettings = {
+  local_asn: '',
+  backbone_v4_prefix: '',
+  backbone_v6_prefix: '',
+  dns_zone: '',
+  cloudflare_zone_id: '',
+  git_repo_node: '',
+  git_branch_node: '',
+  git_branch_rr: '',
+  notify_telegram_enabled: 'false',
+  notify_telegram_bot_token: '',
+  notify_telegram_chat_id: '',
+  notify_email_enabled: 'false',
+  notify_email_smtp_host: '',
+  notify_email_smtp_port: '587',
+  notify_email_smtp_secure: 'false',
+  notify_email_smtp_user: '',
+  notify_email_smtp_pass: '',
+  notify_email_from: '',
+  notify_email_to: '',
+  notify_bark_enabled: 'false',
+  notify_bark_url: '',
+  notify_feishu_enabled: 'false',
+  notify_feishu_webhook_url: '',
+}
